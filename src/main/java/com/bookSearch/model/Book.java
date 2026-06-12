@@ -1,12 +1,10 @@
 package main.java.com.bookSearch.model;
 
-import java.util.Date;
-
-public record Livro(
+public record Book(
         String title,
-        String autor,
+        String author,
         String genre,
-        int numPages,
-        Date year
-) {
+        String numPages,
+        String datePosted
+    ) {
 }
